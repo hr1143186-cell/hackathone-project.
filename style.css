@@ -1,0 +1,690 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+   font-family: Roboto, sans-serif;
+ 
+ background-image: linear-gradient(180deg, #ffffff 0%, #eeebff 69.79%, #ebe8ff 99.99%, #e1deff 100%);
+}
+
+.boss{
+    color: #5b61f6;
+}
+
+.main{
+    display: flex;
+}
+
+.main-links{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.navbar>ul{
+    margin-top: 20px;
+    display: flex;
+  padding-left: 100px;
+    list-style: none;
+    gap: 100px;
+    padding-top: 10px;
+   
+}
+.main-links>a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.px-1{
+  
+   width: 100%;
+   border-radius: 15px;
+}
+.px-2{
+    display: flex;
+
+    justify-content: space-between;
+    padding: 80px;
+    gap: 50px;
+    
+}
+.px-3{
+    flex: 1;
+  padding-top: 100px;
+}
+.px-3 h4{
+    font-weight: lighter;
+
+font-size: 35px;
+margin-bottom: 10px;
+}
+.px-3 h3{
+    font-size: 45px;
+    line-height: 1.2;
+
+}
+.px-3 h3 span{
+    color: #5545D9;
+}
+.px-3 p{
+    margin-top: 15px;
+}
+                           /* second part */
+.px-4{
+    color: #5545D9;
+    font-size: xx-large;
+}
+.px-5{
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    height: 400px;
+    width: 100%;
+       font-family: Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+            letter-spacing: 0.0075em;
+
+}
+.px-6{
+    height: 500px;
+display: flex;
+gap: 50px;
+padding-left: 85px;
+padding-top: 0px;
+
+    
+}
+.po-0{
+    padding-right: 110px;
+    font-size: x-large;
+}
+.po-1{
+    font-weight: 700;
+    font-size: x-large;
+    line-height: 1.9;
+        letter-spacing: 0.0075em;
+}
+.po-2{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+.po-3{
+        font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+}
+.po-4{
+    padding-top: 10px;
+        font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+}
+                             
+.px-7{
+    font-size: 40px;
+  padding-top: 70px;
+}
+                            /* Third Part  */
+.pz-0{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 columns */
+      grid-template-rows: auto auto; /* 2 rows */
+      gap: 20px;
+      height: 500px;
+      margin: auto;
+}
+.pz-1{
+    border: 2px solid rgb(252 208 233);
+    background-color: rgb(252 208 233);
+    border-radius: 1rem;
+     padding: 1.5rem;
+}
+.pz-0 h4  {
+    font-weight: 700;
+        font-size: 1.5rem;
+    line-height: 3rem;
+
+}
+.pz-0 p{
+  
+    line-height: 1.5rem;
+ 
+} 
+.pz-2{
+     border: 2px solid rgb(191 219 254) ;
+    background-color: rgb(191 219 254);
+     border-radius: 1rem;
+        padding: 1.5rem;
+}
+
+
+.pz-4{
+     border: 2px solid #fef08a;
+      border-radius: 1rem;
+    background-color: #fef08a;
+    grid-row: 1 / span 2; /* 1st row se start aur 2 rows tak stretch */
+      grid-column: 3; /* 3rd column me hoga */
+         padding: 1.5rem;
+}
+.pz-5{
+    border: 2px solid #fed7aa;
+    background-color: #fed7aa;
+      border-radius: 1rem;
+         padding: 1.5rem;
+}
+.pz-6{
+    border: 2px solid #e9d5ff;
+    background-color: #e9d5ff;
+    border-radius: 1rem;
+       padding: 1.5rem;
+}
+                                     /* image set */
+ .pi-4{
+    text-align: center;
+    padding-left: 45px;
+ }                                    
+ .pi-3{
+padding-left: 30px;
+ }
+ .pz-3{
+
+   padding-top: 30px;
+   padding-left: 30px;
+}
+.pi-1{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.pi-2{
+    padding-left: 80px;
+}
+                                  /* Forth Part  */
+.pq-0{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 350px;
+    display: flex;
+    height: 500px;
+    gap: 50px;
+}
+.pq-1{
+        font-size: 2rem;
+            margin: 0px 0px 1rem;
+
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+    font-weight: 700;
+    
+}
+.pq-2{
+letter-spacing: 0.00938em;
+margin: 0px 0px 1.5rem;
+line-height: 1.6;
+    letter-spacing: 0.0075em;
+  
+    
+}
+.pq-3{
+    letter-spacing: 0.00938em;
+margin: 0px 0px 1.5rem;
+line-height: 1.6;
+    letter-spacing: 0.0075em;
+  
+}
+                        /* Fifth Part */
+.pw-0{
+    padding: 350px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 800px;
+    
+}
+.pw-1{
+    padding-top: 50px;
+  text-align: center;
+  font-size: 2.2rem;
+
+}
+.pw-2{
+    color: #5b61f6;
+    margin: 0px 0px 1rem;
+   padding-top: 35px;
+   padding-left: 35px;
+    font-size: 1.5rem;
+    line-height: 1.334;
+    letter-spacing: 0em;
+    font-weight: 700;
+}
+
+.pw-5{
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+    height: 250px;
+}
+.pw-3{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+.pw-3 p{
+        font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    padding-left: 30px;
+}
+               /*  Sixth Part */
+.pe-0{
+    padding-top: 10px;
+    height: 600px;
+  
+}
+.pe-1{
+    text-align: center;
+        font-size: 2.125rem;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+    font-weight: 700;
+}
+.pe-2{
+    display: flex;
+    gap: 25px;
+    padding-top: 30px;
+    padding-left: 100px;
+     padding-right: 200px;
+    height: 450px;
+    
+}
+.pe-3 , .pe-6 , .pe-5{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.pe-2 h6{
+    color: #5b61f6;
+    padding-top: 20px;
+        font-size: 1.25rem;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.pe-2 p{
+        font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    padding-left: 15px;
+}
+
+                 /* Seventh Part */
+  .container {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            
+        }
+        
+        .header {
+          
+            color: rgb(7, 7, 7);
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .form-container {
+            padding: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #444;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border 0.3s;
+        }
+        
+        input:focus, textarea:focus {
+            border-color: #6a11cb;
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(106, 17, 203, 0.2);
+        }
+        
+        .name-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .required::after {
+            content: " ";
+            color: #e74c3c;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            border: none;
+            padding: 14px 25px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+           
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        .error-message {
+            color: #e74c3c;
+            font-size: 14px;
+            margin-top: 5px;
+            display: none;
+        }
+        
+        .success-message {
+            background-color: #2ecc71;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 20px;
+            display: none;
+        }
+        
+        @media (max-width: 600px) {
+            .name-group {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 1.8rem;
+            }
+        }   
+        .pu-1{
+            padding-left: 300px;
+            padding-right: 150px;
+        }     
+        .pu-2{
+            padding-left: 300px;
+        }        
+
+        /* Footer base */
+    footer {
+      background: linear-gradient(90deg, #8e44ad, #3498db);
+      color: white;
+      padding: 40px 20px 20px;
+    
+    }
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .footer-section {
+      flex: 1;
+      min-width: 220px;
+      margin: 10px;
+    }
+
+    .footer-section h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .footer-section p {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .footer-links a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      margin: 6px 0;
+      font-size: 14px;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin-right: 12px;
+      font-size: 18px;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    /* Bottom bar */
+    .footer-bottom {
+      text-align: center;
+      border-top: 1px solid rgba(255,255,255,0.4);
+      margin-top: 30px;
+      padding-top: 12px;
+      font-size: 13px;
+      opacity: 0.9;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .footer-container {
+        flex-direction: column;
+        text-align: center;
+      }
+      .footer-section {
+        margin: 20px 0;
+      }
+    }
+
+    /*
+ * =========================================
+ * Responsive Styles (Media Queries)
+ * =========================================
+ */
+
+/* Target screens up to 1024px wide (for mid-sized tablets/laptops) */
+@media (max-width: 1024px) {
+    /* Navbar Adjustments */
+    .navbar>ul {
+        padding-left: 20px; /* Reduce left padding */
+        gap: 50px; /* Reduce gap between main links */
+    }
+
+    /* First Section (Main Content) */
+    .px-2 {
+        padding: 50px 20px; /* Reduce overall padding */
+        flex-direction: column; /* Stack content vertically */
+        gap: 30px;
+    }
+    .px-3 {
+        padding-top: 20px; /* Less top padding when stacked */
+    }
+    .px-3 h4 {
+        font-size: 30px;
+    }
+    .px-3 h3 {
+        font-size: 40px;
+    }
+
+    /* Second Section (Testimonials/Features) */
+    .px-6 {
+        flex-direction: column; /* Stack content vertically */
+        padding-left: 20px;
+        padding-right: 20px;
+        height: auto; /* Allow height to adjust */
+    }
+    .px-5 {
+        width: 100%; /* Full width when stacked */
+        height: auto;
+    }
+    .po-0 {
+        padding-right: 0; /* Remove right padding */
+        text-align: center;
+    }
+
+    /* Third Part (Grid) */
+    .pz-0 {
+        padding-left: 20px;
+        padding-right: 20px;
+        grid-template-columns: 1fr; /* Single column layout for all grid items */
+        grid-template-rows: auto; /* Auto rows */
+        height: auto;
+    }
+    .pz-4 {
+        grid-row: auto; /* Remove explicit row span */
+        grid-column: auto; /* Remove explicit column */
+    }
+    /* Image Adjustments for smaller grids */
+    .pi-4, .pi-3, .pz-3, .pi-1, .pi-2 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    /* Fourth Part (Content Block) */
+    .pq-0 {
+        padding: 50px 20px;
+        padding-top: 50px; /* Reduce top padding */
+        flex-direction: column; /* Stack content vertically */
+        height: auto;
+    }
+
+    /* Fifth Part (Testimonials/Cards) */
+    .pw-0 {
+        padding: 50px 20px;
+        height: auto;
+    }
+    .pw-1 {
+        font-size: 1.8rem;
+    }
+    .pw-5 {
+        flex-direction: column; /* Stack cards vertically */
+        height: auto;
+        gap: 20px;
+    }
+    .pw-3 {
+        padding-bottom: 20px;
+    }
+
+    /* Sixth Part (Features/Cards) */
+    .pe-0 {
+        height: auto;
+        padding-top: 20px;
+    }
+    .pe-1 {
+        font-size: 1.8rem;
+    }
+    .pe-2 {
+        flex-direction: column; /* Stack cards vertically */
+        padding-left: 20px;
+        padding-right: 20px;
+        height: auto;
+        gap: 20px;
+    }
+    .pe-3, .pe-6, .pe-5 {
+        padding-bottom: 20px;
+    }
+
+    /* Seventh Part (Contact Form) */
+    .pu-1, .pu-2 {
+        padding-left: 20px; /* Reduce excessive left padding */
+        padding-right: 20px;
+    }
+
+    .container {
+        box-shadow: none; /* Remove box-shadow on smaller screens for better feel */
+    }
+}
+
+
+/* Target screens up to 768px wide (for smaller tablets and phones) */
+@media (max-width: 768px) {
+    /* Navbar adjustments (for smaller header) */
+    .navbar>ul {
+        flex-direction: column; /* Stack nav items vertically */
+        align-items: center; /* Center items */
+        gap: 15px;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    .main-links {
+        flex-direction: column; /* Stack links */
+        gap: 10px;
+    }
+
+    .px-3 h4 {
+        font-size: 24px;
+    }
+    .px-3 h3 {
+        font-size: 32px;
+    }
+
+    /* Second part - adjust font sizes */
+    .px-4 {
+        font-size: x-large;
+    }
+    .po-1 {
+        font-size: large;
+    }
+
+    /* Third Part - Adjust text size in grid items */
+    .pz-0 h4 {
+        font-size: 1.25rem;
+        line-height: 1.5;
+    }
+}
+    
